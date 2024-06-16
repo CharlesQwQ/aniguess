@@ -32,7 +32,7 @@
     } else {
       enabledFormats.set(JSON.parse(localStorage.getItem("enabled-formats") || "[]"));
     }
-    await fetch("https://ag-api.timostestdoma.in/entries", {
+    await fetch("http://127.0.0.1:3000/entries", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"

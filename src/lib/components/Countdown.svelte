@@ -5,7 +5,7 @@
   let display: string;
 
   onMount(async () => {
-    await fetch("https://ag-api.timostestdoma.in/timeuntil", {
+    await fetch("http://127.0.0.1:3000/timeuntil", {
       method: "GET",
       headers: {
         "Content-Type": "application/json"

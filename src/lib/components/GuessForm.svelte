@@ -100,7 +100,7 @@
 
   onMount(async () => {
     if (localStorage.getItem("autocomplete-entries") == null) {
-      const response = await fetch("https://ag-api.timostestdoma.in/autocomplete", {
+      const response = await fetch("http://127.0.0.1:3000/autocomplete", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"

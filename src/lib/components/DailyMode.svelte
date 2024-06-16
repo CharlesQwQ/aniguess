@@ -9,7 +9,7 @@
     isDaily.set(true);
     gameMode.set(Gamemode.Pixelated);
 
-    await fetch("https://ag-api.timostestdoma.in/daily", {
+    await fetch("http://127.0.0.1:3000/daily", {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
